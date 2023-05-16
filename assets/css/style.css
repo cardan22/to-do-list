@@ -35,6 +35,8 @@ header h1 {
     max-width: 30vw;
     margin: 1rem auto 15rem;
     padding: 4rem;
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 /* Footer credit */
@@ -42,4 +44,24 @@ header h1 {
 .credit {
     text-align: center;
     font-size: 0.8rem;
+}
+
+/* Media queries for devices smaller than 992px */
+
+@media(max-width: 992px) {
+
+    .main-area {
+        max-width: 40vw;
+        padding: 2rem;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .main-area {
+        max-width: 80vw;
+        margin: 1rem auto 3rem;
+        padding: 2rem;
+    }
 }

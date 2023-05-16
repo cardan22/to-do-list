@@ -27,16 +27,71 @@ header h1 {
     letter-spacing: 0.6px;
 }
 
-/* To-do list background */
+/* To-do list */
 
 .main-area {
     background: #fff;
     width: 100%;
     max-width: 30vw;
     margin: 1rem auto 15rem;
-    padding: 4rem;
+    padding: 2rem;
     border-radius: 5px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.task-field {
+    background: #FCE4E2;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    min-height: 10vh;
+}
+
+input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #5A447F;
+}
+
+button {
+    background: #F59694;
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+ul li {
+    font-size: 1rem;
+    list-style: none;
+    padding: 1rem 1rem 1rem 2.5rem;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+}
+
+ul li::before {
+    content: '';
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: url(../images/radio-button-unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 15px;
+    left: 0;
 }
 
 /* Footer credit */
@@ -44,6 +99,7 @@ header h1 {
 .credit {
     text-align: center;
     font-size: 0.8rem;
+    padding: 1rem;
 }
 
 /* Media queries for devices smaller than 992px */

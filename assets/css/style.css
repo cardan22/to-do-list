@@ -157,6 +157,21 @@ ul li.checked::before {
     background-position: center;
 }
 
+ul li span {
+    position: absolute;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    top: 5px;
+}
+
+ul li span:hover {
+    background: #FCE4E2;
+}
+
 /* Footer */
 
 .footer {

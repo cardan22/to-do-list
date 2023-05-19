@@ -53,6 +53,13 @@ header h1 {
     text-transform: uppercase;
 }
 
+/* Date */
+
+#day {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 /* To-do list */
 
 .main-area {
@@ -184,6 +191,7 @@ ul li.checked::before {
 
     header h1 {
         font-size: 1.8rem;
+        padding-left: 1rem;
     }
 
     .task-field {

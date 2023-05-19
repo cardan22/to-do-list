@@ -26,12 +26,31 @@ body {
 
 /* Header */
 
+header {
+    background: #5a447f;
+    width: 100%;
+    max-width: 30vw;
+    margin: 8rem auto 0rem;
+    padding: 0.8rem;
+    border-radius: 5px 5px 0 0;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+header img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
 header h1 {
     text-align: center;
-    padding-top: 10rem;
     color: #fff;
     font-weight: normal;
-    letter-spacing: 0.6px;
+    letter-spacing: 1.2px;
+    padding: 1rem;
+    text-transform: uppercase;
 }
 
 /* To-do list */
@@ -40,9 +59,9 @@ header h1 {
     background: #fff;
     width: 100%;
     max-width: 30vw;
-    margin: 1rem auto 5rem;
-    padding: 2rem;
-    border-radius: 5px;
+    margin: 0rem auto 5rem;
+    padding: 1rem 2rem;
+    border-radius: 0 0 5px 5px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -131,23 +150,23 @@ ul li.checked::before {
     font-size: 0.8rem;
     padding-bottom: 1.5rem;
     width: 100%;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 /* Media queries for devices smaller than 992px */
 
 @media(max-width: 992px) {
 
-    .main-area {
+    header, .main-area {
         max-width: 40vw;
-        padding: 2rem;
     }
 }
 
 /* Media queries for devices samller than 768px */
 
 @media(max-width: 768px) {
-    .main-area {
+    
+    header, .main-area {
         max-width: 50vw;
     }
 }
@@ -155,18 +174,29 @@ ul li.checked::before {
 /* Media queries for devices samller than 600px */
 @media only screen and (max-width: 600px) {
 
-    .main-area {
+    header, .main-area {
         max-width: 60vw;
-        margin: 1rem auto 3rem;
-        padding: 1rem;
     }
 }
 
 /* Media queries for devices samller than 450px */
 @media only screen and (max-width: 450px) {
-    .main-area {
-        max-width: 80vw;
-        margin: 1rem auto 3rem;
-        padding: 1rem;
+    
+    header, .main-area {
+        max-width: 90vw;
+    }
+
+    input {
+        font-size: 0.8rem;
+    }
+
+    .task-field {
+        padding: 0 0.5rem;
+    }
+
+    button {
+        height: 2.5rem;
+        width: 2.5rem;
+        font-size: 35px;
     }
 }

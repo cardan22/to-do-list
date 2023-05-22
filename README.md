@@ -9,13 +9,22 @@ The To-do list is a simple and stylish task management application designed to h
 # UX
 
 ## User Demographic
-This website is for:
-* People who want to stay organized
-* People who want an easy to use To-do list
+The website is designed for:
+* People who want to stay organized.
+* People who want an easy to use To-do list.
+* People who want to improve time management and reduce stress while handling tasks.
 
 ## User stories
+* Working Professional: "I want a to-do list that helps me prioritize and manage tasks easily."
+* Student: "I need a simple to-do list for tracking assignments and study schedule."
+* Parent: "I want a user-friendly To-do list to organize household tasks and appointments."
 
 ## User goals
+* Easily add tasks in the To-do list.
+* Quickly mark tasks as completed to track progress.
+* Easily delete tasks that are no longer relevant.
+* Access the to-do list from various devices and platforms. 
+* Have a clear and intuitive user interface that requires minimal learning effort.
 
 ## Design
 The To-do list has a modern design with clean lines, simple colors, and easy-to-read fonts. The design is created to be user-friendly, so people can easily move around the app and use it without any problems. The focus is on making it simple and intuitive for users to manage their tasks without any problem.

@@ -12,38 +12,49 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>To-do List - Get things done!</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0,0" />
 </head>
 
 <body>
+    <!-- Flex container -->
     <div class="flex-container">
-        <!-- This is the header -->
+
+        <!-- The header -->
         <header>
             <img src="assets/images/to-do-logo.svg" alt="To-do list logo">
             <h1>To-do List</h1>
         </header>
-        <!-- To-do list -->
+
+        <!-- To-do list background -->
         <div class="main-area">
+
+            <!-- Date area -->
             <div class="date-area">
                 <div id="day">
                 </div>
                 <div id="date">
                 </div>
             </div>
+            
+            <!-- To-do List -->
             <div class="task-field">
                 <form id="task">
                     <input type="text" id="task-input" placeholder="Enter a task" maxlength="40" required>
                 </form>
-                <button onclick="addTask()" type="submit" aria-label="Press button to add task">+</button>
+                <button onclick="addTask()" type="submit" aria-label="Press button to add task">
+                    <span class="material-symbols-rounded">
+                        add
+                        </span>
+                    <!--<img class="logo" src="assets/images/add-btn.png" alt="Add button"></button> -->
             </div>
 
             <ul id="task-list">
         </div>
+
         <!-- Footer -->
         <footer class="footer">
             <p>© Designed by Caroline Danielsson</p>
         </footer>
-
-
 
         <!-- JavaScript -->
         <script src="assets/js/script.js"></script>

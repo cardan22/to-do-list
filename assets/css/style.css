@@ -123,7 +123,6 @@ button {
     justify-content: space-around;
     cursor: pointer;
     padding: 1rem;
-    text-align: center;
 }
 
 button:hover {
@@ -253,7 +252,7 @@ ul li span:hover {
     }
 
     .task-field {
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
     button {

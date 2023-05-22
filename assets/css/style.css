@@ -136,6 +136,7 @@ ul li {
     cursor: pointer;
     user-select: none;
     position: relative;
+    background: #fff;
 }
 
 ul li::before {
@@ -169,7 +170,7 @@ ul li span {
     text-align: center;
     border-radius: 50%;
     line-height: 30px;
-    top: 5px;
+    top: 10px;
 }
 
 ul li span:hover {

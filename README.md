@@ -1,5 +1,5 @@
 # To-do List
-Link to the website: xxxx
+Link to the website: [To-do List](https://cardan22.github.io/to-do-list/)
 
 (screenshot)
 
@@ -78,11 +78,16 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 ### Footer doesn’t stick to the bottom of the page
 * The solution was to add flexbox container to body and set the CSS poperty for the footer to { margin-top: auto; }.
 
+### Auto-Zooming on input fields
+* The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
+
 ## Validator Testing
 
 ### HTML
+* The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code, and it identified missing close tags for the flex-container div and for the botton element. These missing close tags were added to ensure proper HTML structure.
 
 ### CSS
+* The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
 ### JavaScript
 
@@ -100,7 +105,7 @@ To deploy the project, follow the ["Creating your site"](https://docs.github.com
 5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
 6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
 
-You can find the link to the project xxxx.
+You can find the link to the project [here](https://cardan22.github.io/to-do-list/)
 
 
 # Credits

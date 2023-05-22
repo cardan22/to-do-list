@@ -41,12 +41,21 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 ## Existing Features
 
 ### Header and logo
+* The section displays a logo along with the header text.
+* Helps the user to quickly recognize and connect the website with its specific content and purpose.
 
 ### Date 
+* The section displays the current date.
+* This helps users identify which tasks are relevant for the day and plan their activities accordingly.
 
 ### Add a task
+* The section includes a form and a button for adding tasks.
+* Informs the users that they can easily add a task to their To-do list.
 
-### Task
+### List of tasks
+* The section displays all the added tasks with an unchecked button and a delete button (represented by an "x"). If a task is marked as done, a checked button is displayed instead of the unchecked button.
+* The user can see all the task and interact with each task by marking it as done or delete it.
+* The unchecked button enables users to indicate the completion status of a task, while the delete button allows them to remove tasks from the list.
 
 # Technologies Used
 * [HTML](https://sv.wikipedia.org/wiki/HTML)

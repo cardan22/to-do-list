@@ -21,11 +21,13 @@ dayElement.innerHTML = today.toLocaleDateString("en-US", day);
 dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 
 
-// Function to add task to the list
+// Add focus point to form
 
 document.getElementById("task-input").focus();
 
-document.getElementById("task-input").addEventListener("keydown", function(event) {
+// Function to add a task to the To-do list
+
+document.getElementById("task-input").addEventListener("keydown", function (event) {
     if (event.key === "Enter") {
         addTask();
     }
@@ -43,7 +45,30 @@ function addTask() {
         span.innerHTML = "\u00d7";
         li.appendChild(span);
     }
-    
     taskInput.value = "";
-    
+    saveData();
 }
+
+// Mark task as done or delete task
+
+taskList.addEventListener("click", function (e) {
+    if (e.target.tagName === "LI") {
+        e.target.classList.toggle("checked");
+        saveData();
+    } else if (e.target.tagName === "SPAN") {
+        e.target.parentElement.remove();
+        saveData();
+    }
+}, false);
+
+// Function to store the tasks
+
+function saveData() {
+    localStorage.setItem("data", taskList.innerHTML);
+}
+
+function showList() {
+    taskList.innerHTML = localStorage.getItem("data");
+}
+
+showList();

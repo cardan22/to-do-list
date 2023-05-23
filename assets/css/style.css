@@ -11,6 +11,7 @@
 
 body {
     font-family: 'Jost', sans-serif;
+    min-height: -webkit-fill-available;
 }
 
 html {
@@ -24,7 +25,6 @@ html {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
     color: #5A447F;
     background-image: linear-gradient(#5F689F, #FCE4E2);
 }

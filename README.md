@@ -107,7 +107,7 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * After running the JavaScript code on [jshint.com](https://jshint.com/), I received warnings regarding the use of 'esversion: 6'. To resolve this, I added the comment /*jshint esversion: 6 */ at the top of the JS file.
 
 #### Accessibility (Devtool Lighthouse Report)
-* I ran a Lighthouse test on the website, and it received a high score in most areas except for the "Accessibility" section. The reason for this is because auto-zooming on input fields was removed
+* I ran a Lighthouse test on the website, and it received a high score in most areas except for the "Accessibility" section. The reason for this is because auto-zooming on input fields was removed.
 
 ![Screenshot of Lighthouse Report](/assets/images/readme-images/lighthouse.png)
 
@@ -131,9 +131,10 @@ Link to the [website](https://cardan22.github.io/to-do-list/)
 
 ## Content
 * I used the code from the Love running project for the event listener that captures the "Enter" key press and the function to add focus to the form.
-* The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples)
+* I followed a tutorial by [@EasyTutorialsVideo](https://www.youtube.com/watch?v=G0jO8kUrg-I) on YouTube to seek assistance with the JavaScript code for adding tasks to the to-do list.
 * To implement JavaScript for the date a got information and examples from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
 * The icons used were taken from [Google Fonts](https://fonts.google.com/icons)
+* The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples)
 
 ## Media
 * The top mockup in the README was generated using [ami.responsivedesign.is](http://ami.responsivedesign.is/).

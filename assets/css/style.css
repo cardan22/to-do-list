@@ -178,6 +178,29 @@ ul li span:hover {
     background: #FCE4E2;
 }
 
+/*  Completed tasks */
+
+h2 {
+    font-weight: 500;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #5a447f;
+}
+
+#completed-tasks-section {
+    display: none;
+    margin: 1rem 0rem;
+}
+
+#completed-tasks-section h2 {
+    margin-top: 0;
+}
+
+#completed-tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
 /* Footer */
 
 .footer {

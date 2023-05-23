@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 // Select the elements
 
 const dayElement = document.getElementById("day");
@@ -31,12 +33,12 @@ document.getElementById("task-input").addEventListener("keydown", function (even
     if (event.key === "Enter") {
         addTask();
     }
-})
+});
 
 function addTask() {
 
     if (taskInput.value === '') {
-        alert("Please write a task in the field")
+        alert("Please write a task in the field");
     } else {
         let li = document.createElement("li");
         li.innerHTML = taskInput.value;

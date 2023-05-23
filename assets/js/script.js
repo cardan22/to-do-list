@@ -24,12 +24,6 @@ dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 taskInput.focus();
 
 // Function to add a task to the To-do list
-document.getElementById("task-input").addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-        addTask();
-    }
-});
-
 function addTask() {
     if (taskInput.value === '') {
         alert("Please write a task in the field");
@@ -45,7 +39,14 @@ function addTask() {
     saveData();
 }
 
-// Mark task as done or delete task
+// Event listener for "Enter" key press
+document.getElementById("task-input").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
+
+// Event listener for marking task as done or deleting task
 taskList.addEventListener("click", function (event) {
     if (event.target.tagName === "LI") {
         event.target.classList.toggle("checked");

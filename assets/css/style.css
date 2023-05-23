@@ -13,6 +13,10 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
+html {
+    height: -webkit-fill-available;
+  }
+
 /* Flex container */
 
 .flex-container {
@@ -20,6 +24,7 @@ body {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     color: #5A447F;
     background-image: linear-gradient(#5F689F, #FCE4E2);
 }
@@ -176,29 +181,6 @@ ul li span {
 
 ul li span:hover {
     background: #FCE4E2;
-}
-
-/*  Completed tasks */
-
-h2 {
-    font-weight: 500;
-    font-size: 1rem;
-    text-transform: uppercase;
-    border-bottom: 1px solid #5a447f;
-}
-
-#completed-tasks-section {
-    display: none;
-    margin: 1rem 0rem;
-}
-
-#completed-tasks-section h2 {
-    margin-top: 0;
-}
-
-#completed-tasks {
-    list-style-type: none;
-    padding: 0;
 }
 
 /* Footer */

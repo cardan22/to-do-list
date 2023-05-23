@@ -1,7 +1,7 @@
 # To-do List
 Link to the website: [To-do List](https://cardan22.github.io/to-do-list/)
 
-![Mockup of To-do List on different devices](/assets/images/readme-images/xxxx)
+![Mockup of To-do List on different devices](/assets/images/readme-images/to-do-mockup.png)
 
 # About
 The To-do list is a simple and stylish task management application designed to help users keep track of their tasks and stay organized. With its user-friendly interface, it provides a seamless and easy-to-understand experience for users to easily manage their to-do items.

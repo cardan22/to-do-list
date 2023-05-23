@@ -1,7 +1,7 @@
 # To-do List
 Link to the website: [To-do List](https://cardan22.github.io/to-do-list/)
 
-(screenshot)
+![Mockup of To-do List on different devices](/assets/images/readme-images/xxxx)
 
 # About
 The To-do list is a simple and stylish task management application designed to help users keep track of their tasks and stay organized. With its user-friendly interface, it provides a seamless and easy-to-understand experience for users to easily manage their to-do items.
@@ -33,14 +33,20 @@ The To-do list has a modern design with clean lines, simple colors, and easy-to-
 * I used Figma to design wireframes, which helped me to create a visual representation of the To-do list.
 * The website was completed with only minor differences from the original plan. I made some adjustments, particularly in the header section, to ensure better integration with the overall design of the to-do list.
 
+![Wireframes of To-do List](/assets/images/readme-images/to-do-wireframes.png)
+
 ## Colours
-I got inspiration from the specific color palette below and I carefully selected a few colors from this palette and combine them into the to-do list's visual elements.
+I got inspiration from the specific color palette below and I selected a few colors from this palette and combine them into the to-do list's visual elements.
+
+![Colour palette](/assets/images/readme-images/colours.png)
 
 ## Typography
 I used Jost font To make the To-do list visually appealing and easy to read. My goal was to create a pleasant and easy-to-read text style that goes well with the overall design.
 
 ## Logo
 I created a simple logo for the To-do list to strengthen its visual identity. The logo is minimalistic and easy to understand, making it easier for users to recognize and associate with the to-do list.
+
+![To-do List logo](/assets/images/readme-images/to-do-logo.png)
 
 # Features
 * Create a task
@@ -53,18 +59,26 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * The section displays a logo along with the header text.
 * Helps the user to quickly recognize and connect the website with its specific content and purpose.
 
+![Header and logo](/assets/images/readme-images/header.png)
+
 ### Date 
 * The section displays the current date.
 * This helps users identify which tasks are relevant for the day and plan their activities accordingly.
+
+![Todays date](/assets/images/readme-images/date.png)
 
 ### Add a task
 * The section includes a form and a button for adding tasks.
 * Informs the users that they can easily add a task to their To-do list.
 
+![Form to add a task](/assets/images/readme-images/form.png)
+
 ### List of tasks
 * The section displays all the added tasks with an unchecked button and a delete button (represented by an "x"). If a task is marked as done, a checked button is displayed instead of the unchecked button.
 * The user can see all the task and interact with each task by marking it as done or delete it.
 * The unchecked button enables users to indicate the completion status of a task, while the delete button allows them to remove tasks from the list.
+
+![List of tasks](/assets/images/readme-images/task.png)
 
 # Technologies Used
 * [HTML](https://sv.wikipedia.org/wiki/HTML)
@@ -73,25 +87,28 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 
 # Testing
 
-## List of main issues:
+### List of main issues:
 
-### Footer doesn’t stick to the bottom of the page
-* The solution was to add flexbox container to body and set the CSS poperty for the footer to { margin-top: auto; }.
+#### Footer doesn’t stick to the bottom of the page
+* The solution was to add flexbox container and set the CSS poperty for the footer to { margin-top: auto; }.
 
-### Auto-Zooming on input fields
+#### Auto-Zooming on input fields
 * The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
 
-## Validator Testing
+### Validator Testing
 
-### HTML
+#### HTML
 * The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code, and it identified missing close tags for the flex-container div and for the botton element. These missing close tags were added to ensure proper HTML structure.
 
-### CSS
+#### CSS
 * The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
-### JavaScript
+#### JavaScript
 
-### Accessibility (Devtool Lighthouse Report)
+#### Accessibility (Devtool Lighthouse Report)
+* I ran a Lighthouse test on the website, and it received a high score in most areas except for the "Accessibility" section. The reason for this is because auto-zooming on input fields was removed
+
+![Screenshot of Lighthouse Report](/assets/images/readme-images/lighthouse.png)
 
 # Development and Deployment
 
@@ -105,14 +122,18 @@ To deploy the project, follow the ["Creating your site"](https://docs.github.com
 5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
 6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
 
-You can find the link to the project [here](https://cardan22.github.io/to-do-list/)
+Link to [deployment site](https://github.com/cardan22/to-do-list)
 
+Link to the [website](https://cardan22.github.io/to-do-list/)
 
 # Credits
 
 ## Content
 * The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples)
 * To implement JavaScript for the date a got information and examples from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
-* The icons used for the unchecked and checked states were taken from [Google Fonts](https://fonts.google.com/icons)
+* The icons used were taken from [Google Fonts](https://fonts.google.com/icons)
+
+## Media
+* The top mockup in the README was generated using [ami.responsivedesign.is](http://ami.responsivedesign.is/).
 
 [Back to top](#to-do-list)

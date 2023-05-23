@@ -36,7 +36,7 @@ The To-do list has a modern design with clean lines, simple colors, and easy-to-
 ![Wireframes of To-do List](/assets/images/readme-images/to-do-wireframes.png)
 
 ## Colours
-I got inspiration from the specific color palette below and I selected a few colors from this palette and combine them into the to-do list's visual elements.
+I got inspiration from the specific colour palette below and I selected a few colours from this palette and combine them into the To-do list's visual elements.
 
 ![Colour palette](/assets/images/readme-images/colours.png)
 
@@ -95,7 +95,7 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 #### Auto-Zooming on input fields
 * The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
 
-### Validator Testing
+## Validator Testing
 
 #### HTML
 * The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code, and it identified missing close tags for the flex-container div and for the botton element. These missing close tags were added to ensure proper HTML structure.
@@ -104,6 +104,7 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
 #### JavaScript
+* After running the JavaScript code on [jshint.com](https://jshint.com/), I received warnings regarding the use of 'esversion: 6'. To resolve this, I added the comment /*jshint esversion: 6 */ at the top of the JS file.
 
 #### Accessibility (Devtool Lighthouse Report)
 * I ran a Lighthouse test on the website, and it received a high score in most areas except for the "Accessibility" section. The reason for this is because auto-zooming on input fields was removed
@@ -122,13 +123,14 @@ To deploy the project, follow the ["Creating your site"](https://docs.github.com
 5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
 6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
 
-Link to [deployment site](https://github.com/cardan22/to-do-list)
+Link to the [deployment site](https://github.com/cardan22/to-do-list)
 
 Link to the [website](https://cardan22.github.io/to-do-list/)
 
 # Credits
 
 ## Content
+* I used the code from the Love running project for the event listener that captures the "Enter" key press and the function to add focus to the form.
 * The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples)
 * To implement JavaScript for the date a got information and examples from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
 * The icons used were taken from [Google Fonts](https://fonts.google.com/icons)

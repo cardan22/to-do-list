@@ -41,6 +41,8 @@ taskInput.focus();
  * Adds a task to the task list when the user enters a task in the field and presses the button.
  * If the task input field is empty, displays an alert message.
  * After adding the task, clears the task input field and saves the updated task list.
+ * Tutorial by @EasyTutorialsVideo on YouTube
+ * Link: []
  */
 function addTask() {
     if (taskInput.value === '') {
@@ -74,6 +76,13 @@ document.getElementById("task-input").addEventListener("keydown", function (even
 });
 
 /**
+ * Popup window
+ */
+function showPopup() {
+    document.getElementById("popup-text").classList.toggle("active");
+}
+
+/**
  * Marks a task as done or deletes a task when clicked.
  * If the clicked element is a list item, toggles the "checked" class to mark it as done.
  * If the clicked element is the delete button, removes the corresponding task from the task list.
@@ -96,7 +105,7 @@ taskList.addEventListener("click", function (event) {
 /**
  * Stores the task list in the local storage.
  * Saves the inner HTML content of the task list element as the "data" item in the local storage.
-*/
+ */
 function saveData() {
     localStorage.setItem("data", taskList.innerHTML);
 }

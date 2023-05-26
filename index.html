@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>To-do List - Get things done!</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0,0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0,0">
 </head>
 
 <body>
@@ -46,11 +47,27 @@
                         <input type="text" id="task-input" placeholder="Enter a task" maxlength="40" required>
                     </div>
                     <!-- Button to add a task -->
-                    <button onclick="addTask()" type="submit" aria-label="Press button to add task">
+                    <button class="task-btn" onclick="addTask()" type="submit" aria-label="Press button to add task">
                         <span class="material-symbols-rounded">
                             add
                         </span>
                     </button>
+                </div>
+                <!-- Popup window -->
+                <div class="popup" id="popup-text">
+                    <div class="popup-content">
+                        <div class="close-btn" onclick="showPopup()">&times;</div>
+                        <h1>How to use the To-do List</h1>
+                        <ol>
+                            <li>Add tasks using the input field.</li>
+                            <li>Press "Enter" or click "Add Task" to add a task.</li>
+                            <li>Mark tasks as completed or delete them.</li>
+                        </ol>
+                        <p><b>That's it! Enjoy using the To-Do List.</b></p>
+                    </div>
+                </div>
+                <div class="popup-text-container">
+                    <div class="popup-text" onclick="showPopup()">Need help?</div>
                 </div>
                 <!-- List of tasks will be displayed here -->
                 <ul id="task-list"></ul>

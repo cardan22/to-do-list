@@ -4,7 +4,7 @@ Link to the website: [To-do List](https://cardan22.github.io/to-do-list/)
 ![Mockup of To-do List on different devices](/assets/images/readme-images/to-do-mockup.png)
 
 # About
-The To-do list is a simple and stylish task management application designed to help users keep track of their tasks and stay organized. With its user-friendly interface, it provides a seamless and easy-to-understand experience for users to easily manage their to-do items.
+The To-Do List website is designed for people of all ages, including working professionals, students, and parents. It provides a simple and effective way to manage tasks, helping users stay organized and achieve their goals. Users appreciate the user-friendly interface and practical features like task creation, progress tracking, and task completion marking. The website is compatible with various devices and platforms, enabling users to access their tasks anytime and anywhere. People keep using the To-Do List because it helps them stay organized, stay focused, and get things done on time. It is a useful tool for managing priorities and making sure tasks are completed when they should be.
 
 # UX
 
@@ -73,6 +73,14 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 
 ![Form to add a task](/assets/images/readme-images/form.png)
 
+### Need help section
+* The section displays the text “need help” as a clickable element.
+* When clicking it opens a popup window with instructions on how to use the To-do list.
+* Provides users with additional guidance and information how to use the To-do list.
+
+![Need help](/assets/images/readme-images/need-help.png)
+![Popup window](/assets/images/readme-images/popup-window.png)
+
 ### List of tasks
 * The section displays all the added tasks with an unchecked button and a delete button (represented by an "x"). If a task is marked as done, a checked button is displayed instead of the unchecked button.
 * The user can see all the task and interact with each task by marking it as done or delete it.
@@ -96,15 +104,29 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
 
 ## Validator Testing
+The website underwent thorough testing to ensure proper functionality. The following steps were taken during testing:
+
+1. Adding Tasks: The feature for adding tasks was tested by inputting different types of tasks. This ensured that tasks were successfully added to the list.
+2. Marking Tasks as Done: The ability to mark tasks as done was examined. Tasks were selected and marked as done to verify the visual indication of completion and proper system updates.
+3. Deleting Tasks: The feature for deleting tasks from the list was tested. Both completed and pending tasks were removed to confirm successful deletion.
+
+These tests helped identify and resolve any issues related to adding, marking, and deleting tasks. As a result, the website provides a reliable and user-friendly experience for managing tasks.
+Additionally, I tested the website on various devices and web browsers, including Google Chrome, Microsoft Edge, and Safari, as well as on iPhone and Android devices. The website was found to display well and function properly on different screen sizes without any issues.
 
 #### HTML
 * The [W3C HTML Validator](https://validator.w3.org/) was used to validate the HTML code, and it identified missing close tags for the flex-container div and for the botton element. These missing close tags were added to ensure proper HTML structure.
 
+![Screenshot of CSS validator](/assets/images/readme-images/html-validator.png)
+
 #### CSS
 * The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
+![Screenshot of CSS validator](/assets/images/readme-images/xxx)
+
 #### JavaScript
 * After running the JavaScript code on [jshint.com](https://jshint.com/), I received warnings regarding the use of 'esversion: 6'. To resolve this, I added the comment /*jshint esversion: 6 */ at the top of the JS file.
+
+![Screenshot of Jshint](/assets/images/readme-images/jshint.png)
 
 #### Accessibility (Devtool Lighthouse Report)
 * I ran a Lighthouse test on the website, and it received a high score in most areas except for the "Accessibility" section. The reason for this is because auto-zooming on input fields was removed.
@@ -125,16 +147,17 @@ To deploy the project, follow the ["Creating your site"](https://docs.github.com
 
 Link to the [deployment site](https://github.com/cardan22/to-do-list)
 
-Link to the [website](https://cardan22.github.io/to-do-list/)
+Link to the live [website](https://cardan22.github.io/to-do-list/)
 
 # Credits
 
 ## Content
 * I used the code from the Love running project for the event listener that captures the "Enter" key press and the function to add focus to the form.
 * I followed a tutorial by [@EasyTutorialsVideo](https://www.youtube.com/watch?v=G0jO8kUrg-I) on YouTube to seek assistance with the JavaScript code for adding tasks to the to-do list.
-* To implement JavaScript for the date a got information and examples from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
-* The icons used were taken from [Google Fonts](https://fonts.google.com/icons)
-* The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples)
+* To implement JavaScript for the date a got information and examples from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString).
+* The icons used were taken from [Google Fonts](https://fonts.google.com/icons).
+* The box-shadow effect used in the to-do list application was sourced from [getcssscan.com](https://getcssscan.com/css-box-shadow-examples).
+* I followed a tutorial by [Codingflag](https://www.youtube.com/watch?v=iE_6pQ3RlZU) on YouTube to learn how to create a popup window.
 
 ## Media
 * The top mockup in the README was generated using [ami.responsivedesign.is](http://ami.responsivedesign.is/).

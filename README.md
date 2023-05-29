@@ -110,7 +110,7 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
 
 #### 100vh on Mobile Devices
-* I tried to use the height: -webkit-fill-available property to achieve a 100vh height on mobile devices and prevent scrolling to see the footer, but this solution did not work as intended. I resolved the issue by changing the height unit from 100vh to 100svh, successfully displaying the footer without requiring scrolling on mobile devices.
+* I tried using the height: -webkit-fill-available property to make the webpage take up the full height of the screen on mobile devices and prevent scrolling to see the footer. However, this solution didn't work as I expected. I also tried changing the 100vh value to 100svh, and while it worked on some devices, it didn't work on all of them. So, unfortunately, the issue still remains.
 
 ## Validator Testing
 The website underwent thorough testing to ensure proper functionality. The following steps were taken during testing:

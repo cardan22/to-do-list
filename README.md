@@ -154,9 +154,7 @@ To deploy the project, follow the ["Creating your site"](https://docs.github.com
 5.	In the "Source" section, select "main" as the branch and "root" as the folder, then click "Save".
 6.	The website will be deployed, and the page will automatically refresh to display the link to the live project.
 
-Link to the [deployment site](https://github.com/cardan22/to-do-list)
-
-Link to the live [website](https://cardan22.github.io/to-do-list/)
+Link to the live [website](https://cardan22.github.io/to-do-list/).
 
 # Credits
 

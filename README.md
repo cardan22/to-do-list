@@ -74,7 +74,7 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 ![Form to add a task](/assets/images/readme-images/form.png)
 
 ### Need help section
-* The section displays the text “need help” as a clickable element.
+* The section displays the text "need help?" as a clickable element.
 * When clicking it opens a popup window with instructions on how to use the To-do list.
 * Provides users with additional guidance and information how to use the To-do list.
 
@@ -87,6 +87,12 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 * The unchecked button enables users to indicate the completion status of a task, while the delete button allows them to remove tasks from the list.
 
 ![List of tasks](/assets/images/readme-images/task.png)
+
+### Footer section
+* The footer shows a copyright text.
+* Gives the user information about who owns the website and its content.
+
+![Footer with copyright text](/assets/images/readme-images/footer.png)
 
 # Technologies Used
 * [HTML](https://sv.wikipedia.org/wiki/HTML)
@@ -102,6 +108,9 @@ I created a simple logo for the To-do list to strengthen its visual identity. Th
 
 #### Auto-Zooming on input fields
 * The solution was to add the following code to the head (meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"). 
+
+#### 100vh on Mobile Devices
+* I tried to use the height: -webkit-fill-available property to achieve a 100vh height on mobile devices and prevent scrolling to see the footer, but this solution did not work as intended. I resolved the issue by changing the height unit from 100vh to 100svh, successfully displaying the footer without requiring scrolling on mobile devices.
 
 ## Validator Testing
 The website underwent thorough testing to ensure proper functionality. The following steps were taken during testing:

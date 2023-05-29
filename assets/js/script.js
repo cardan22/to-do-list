@@ -76,14 +76,28 @@ document.getElementById("task-input").addEventListener("keydown", function (even
 });
 
 /**
+ * Handles the keydown event and toggles the "active" class
+ * on the element with the id "popup-text" when the "Escape" key is pressed.
+ */
+
+document.addEventListener('keydown', function (event) {
+    if (event.key === "Escape") {
+        document.getElementById("popup-text").classList.toggle("active");
+    }
+});
+
+/**
  * Toggles the visibility of the popup window.
  * Adds or removes the "active" class to the popup text element, which controls its visibility.
  * When the "active" class is added, the popup window is displayed.
  * When the "active" class is removed, the popup window is hidden.
  */
+
 function showPopup() {
     document.getElementById("popup-text").classList.toggle("active");
 }
+
+
 
 /**
  * Marks a task as done or deletes a task when clicked.

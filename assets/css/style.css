@@ -193,6 +193,7 @@ li::marker {
     background: #5A447F;
     text-align: center;
     cursor: pointer;
+    line-height: 25px;
 }
 
 .close-btn:hover {

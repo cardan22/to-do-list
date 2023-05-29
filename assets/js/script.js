@@ -42,7 +42,7 @@ taskInput.focus();
  * If the task input field is empty, displays an alert message.
  * After adding the task, clears the task input field and saves the updated task list.
  * Tutorial by @EasyTutorialsVideo on YouTube
- * Link: []
+ * Link: [https://www.youtube.com/watch?v=G0jO8kUrg-I]
  */
 function addTask() {
     if (taskInput.value === '') {
@@ -76,7 +76,10 @@ document.getElementById("task-input").addEventListener("keydown", function (even
 });
 
 /**
- * Popup window
+ * Toggles the visibility of the popup window.
+ * Adds or removes the "active" class to the popup text element, which controls its visibility.
+ * When the "active" class is added, the popup window is displayed.
+ * When the "active" class is removed, the popup window is hidden.
  */
 function showPopup() {
     document.getElementById("popup-text").classList.toggle("active");

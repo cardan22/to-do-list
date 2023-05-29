@@ -121,7 +121,7 @@ Additionally, I tested the website on various devices and web browsers, includin
 #### CSS
 * The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/), and no errors were found.
 
-![Screenshot of CSS validator](/assets/images/readme-images/xxx)
+![Screenshot of CSS validator](/assets/images/readme-images/css-validator.png)
 
 #### JavaScript
 * After running the JavaScript code on [jshint.com](https://jshint.com/), I received warnings regarding the use of 'esversion: 6'. To resolve this, I added the comment /*jshint esversion: 6 */ at the top of the JS file.

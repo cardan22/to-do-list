@@ -46,7 +46,7 @@ taskInput.focus();
  */
 function addTask() {
     if (taskInput.value === '') {
-        alert("Please write a task in the field");
+        alert("Please write a task in the field.");
     } else {
         // Create a new list item for the task
         let li = document.createElement("li");
